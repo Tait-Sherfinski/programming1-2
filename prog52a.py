@@ -1,5 +1,5 @@
-length = int(input("please enter the length: ")
-width = int(input("please enter the width: ")
+length = int(input("please enter the length: "))
+width = int(input("please enter the length: "))
 
 print("the length is", length)
 print("the width is", width)

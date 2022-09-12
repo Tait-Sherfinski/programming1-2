@@ -5,19 +5,19 @@ def main():
     """ Karel code goes here! """
 move()
 move()
-move
-turn left()
+move()
+turn_left()
 move()
 move()
 move()
 move()
-turn left()
-turn left()
-turn left()
+turn_left()
+turn_left()
+turn_left()
 move()
-turn left(
-turn left(
-turn left()
+turn_left()
+turn_left()
+turn_left()
 pass
 
 
