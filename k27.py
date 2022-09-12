@@ -16,7 +16,25 @@ def main():
     pick_beeper()
     move()
     turn_left()
-    
+    move()
+    pick_beeper()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    pick_beeper()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    move()
+    turn_left()
+    move()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left()
     pass
 
 
