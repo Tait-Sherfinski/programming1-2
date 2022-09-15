@@ -74,6 +74,9 @@ def main():
     kt = ktools()
     kt.h()
     kt.e()
+    kt.l()
+    kt.l()
+    kt.o()
     pass
 
 
