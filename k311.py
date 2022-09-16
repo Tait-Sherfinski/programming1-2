@@ -52,7 +52,6 @@ def main():
     move()
     move()
     put_beeper()
-    
     pass
 
 
