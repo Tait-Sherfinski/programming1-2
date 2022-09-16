@@ -68,6 +68,55 @@ class ktools:
       self.m()
       self.m()
 
+          def e(self):
+      """Print E using beepers"""
+      self.put2()
+      self.put()
+      self.ta()
+      self.m()
+      self.m()
+      self.tr()
+      self.put2()
+      self.tr()
+      self.put2()
+      self.ta()
+      self.m()
+      self.m()
+      self.tr()
+      self.put2()
+      self.tr()
+      self.put2()
+      self.m()
+      self.m()
+      self.tr()
+
+    def l(self):
+      """Print L using using beepers"""
+      self.put5()
+      self.tl()
+      self.put2()
+      self.tl()
+      self.m()
+      self.m()
+      self.m()
+      self.m()
+      self.tr()
+      self.m()
+      self.m()
+      self.tr()
+
+    def o(self):
+      """Print O using beepers"""
+      self.put5()
+      self.tl()
+      self.put2()
+      self.put()
+      self.tl()
+      self.put2()
+      self.put2()
+      self.tl()
+      self.put2()
+
 
 def main():
     """ Karel code goes here! """
