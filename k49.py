@@ -78,6 +78,7 @@ class ktools:
           if self.ric():
             self.tr()
             self.m()
+              
       pass
       
 
@@ -85,13 +86,13 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.mazemove()
-    kt.m()
-    kt.m()
-    kt.m()
-    kt.m()
     kt.m()
     kt.tl()
+    kt.m()
+    kt.mazemove()
+    
+    
+    
     
   
     pass
