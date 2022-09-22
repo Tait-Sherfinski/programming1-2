@@ -1,5 +1,4 @@
 from stanfordkarel import *
-from time import sleep
 
 
 class ktools:
@@ -78,19 +77,32 @@ class ktools:
           if self.ric():
             self.tr()
             self.m()
-              
       pass
+
+    def mm(self, num):
+      """Move multiple"""
+      for number in range(num):
+        self.m()
+
+    def pickm(self, num):
+      """Pick multiple"""
+      for i in range(num-1):
+        self.pick()
+        self.m()
+      self.pick()
+
+    def putm(self, num):
+      """Put multiple"""
+      for _ in range(num-1):
+        self.put()
+        self.m()
+      self.put()
       
 
 
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.mazemove()
-    
-    
-    
-    
   
     pass
 
