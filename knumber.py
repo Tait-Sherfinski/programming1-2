@@ -112,18 +112,24 @@ class ktools:
       self.putm(3)
       self.tl()
       self.mm(5)
+
+    def one(self):
+      self.tl()
+      self.mm(5)
+      self.ta()
+      self.putm(5)
+      self.tl()
+      self.mm(2)
       
 
 
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.tl()
-    kt.mm(5)
-    kt.ta()
-    kt.putm(5)
-    kt.tl()
-    kt.mm(2)
+    kt.one()
+    kt.zero()
+    kt.zero()
+    kt.zero()
     kt.zero()
     pass
 
