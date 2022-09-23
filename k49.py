@@ -86,12 +86,49 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
+    kt.m()
+    kt.tl()
+    kt.m()
     kt.mazemove()
-    
-    
-    
-    
-  
+    sleep(3)
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.mazemove()
+    sleep(3)
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.mazemove()
+    sleep(3)
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.mazemove()
+    sleep(3)
     pass
 
 
