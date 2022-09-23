@@ -97,45 +97,34 @@ class ktools:
         self.put()
         self.m()
       self.put()
-
-    def zero(self):
-      """Write a zero with beepers"""
-      self.putm(4)
-      self.tl()
-      self.m()
-      self.putm(3)
-      self.tl()
-      self.m()
-      self.putm(3)
-      self.tl()
-      self.m()
-      self.putm(3)
-      self.tl()
-      self.mm(5)
-
-    def one(self):
-      self.tl()
-      self.mm(5)
-      self.ta()
-      self.putm(5)
-      self.tl()
-      self.mm(2)
       
 
 
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.one()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
-    kt.zero()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.put()
+    kt.ta()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.putm(2)
+    kt.ta()
+    kt.mm(2)
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.putm(3)
+    kt.ta()
+    kt.mm(3)
+    kt.tl()
+    kt.mm(6)
     pass
 
 
