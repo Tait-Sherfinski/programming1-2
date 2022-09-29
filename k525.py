@@ -148,7 +148,9 @@ def main():
     kt.pickm(2)
     kt.tl()
     kt.mm(2)
-  
+    kt.tl()
+    kt.putm(3)
+    
     pass
 
 
