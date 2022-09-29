@@ -132,31 +132,13 @@ class ktools:
         self.tl()
         self.m()
     pass
-
-  def find54(self):
-    """Find for 54"""
-    self.pick()
-    if not self.SOB():
-      self.tl()
-      self.m()
-      self.pickm(10)
-    else:
-      self.pick()
-      self.tr()
-      self.m()
-      self.pickm(10)
-      
       
 
 
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.find54()
-    kt.ta()
-    kt.mm(2)
-    while self.SOB():
-      kt.pick()
+  
     pass
 
 
