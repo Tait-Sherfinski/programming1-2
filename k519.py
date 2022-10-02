@@ -133,34 +133,18 @@ class ktools:
         self.m()
     pass
 
-  def hurdlerun(self):
-    """Hurdle run for 511"""  
-    if self.fib():
-      self.tl()
-      self.m()
-      if self.rib():
-        self.m()
-      self.m()
-      if self.ric():
-        self.tr()
-        if self.rib():
-          self.m()
-        self.m()
-      else:
-        self.tr()
-        
-          
-          
+  def treasurehunt(self):
+    """Treasure hunt for 519"""
+    while self.SOB():
+      self.pick()
       
 
 
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.m()
-    kt.hurdlerun()
-    while self.SOB():
-      kt.pick()
+    kt.mm(6)
+    
     pass
 
 
