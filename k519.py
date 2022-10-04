@@ -133,10 +133,32 @@ class ktools:
         self.m()
     pass
 
-  def treasurehunt(self):
-    """Treasure hunt for 519"""
+  def do519(self):
+    beepcnt = 0
     while self.SOB():
       self.pick()
+      beepcnt = beepcnt + 1
+    if beepcnt == 1:
+      # make karel face north
+      while not facing_north():
+        self.tl()
+      if beepcnt ==5:
+        kt.pickm(5)
+        sleep()
+
+    elif beepcnt == 2: # else if
+      # make karel face west
+  
+    elif beepcnt == 3:
+      # make karel face south
+
+    else:
+      # make karel face east
+
+    beepcnt = 0 # reset beeper counter
+        
+        
+      
       
 
 
@@ -144,7 +166,17 @@ def main():
     """ Karel code goes here! """
     kt = ktools()
     kt.mm(6)
-    
+    kt.do519()
+    kt.mm(4)
+    kt.do519()
+    kt.mm(6)
+    kt.do519()
+    kt.mm(3)
+    kt.do519()
+    kt.mm(3)
+    kt.do519()
+    kt.mm(5)
+    kt.do519()
     pass
 
 
