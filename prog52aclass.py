@@ -1,5 +1,5 @@
 class Shape:
-  def __int__(self, length, width):
+  def __init__(self, length, width):
     self.length = length
     self.width = width
     self.area = 0
